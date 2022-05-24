@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.page {
+    min-width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.page_1 {
+    background-color: #8b8b8b ;
+    background-image: url(image/background.webp);
+}
+
+.page_2 {
+    background-color: rgb(247, 250, 252);
+}
+
+.page_3 {
+    background-color: #58296b ;
+}
+.page_4 {
+    background-color: #1d758b;
+}
+
+.page_5 {
+    background-color: #E5E7E9;
+}
+
+.scroll {
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+}
+.service{
+    margin-top:180px;
+}
+.navbarlist{
+    height: 100%;
+    margin-left: 55rem;
+    margin-top: -140px;
+    text-align: right;
+    font-size: 20px;
+    
+}
+
+.navbarlist2{
+    margin-left: 55rem;
+    margin-top: -350px;
+    text-align: right;
+    font-size: 20px;
+}
+/* .navbarlist2 .active{
+    text-transform: uppercase;
+} */
+.team{
+    margin-left: 15px;
+    margin-top:150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.teamjob{
+    margin-left: 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 15px;
+}
+.navbarlist3{
+    margin-left: 55rem;
+    margin-top: -200px;
+    text-align: right;
+    font-size: 20px;
+}
+.navbarlist4{
+    margin-left: 55rem;
+    margin-top: -300px;
+    text-align: right;
+    font-size: 20px;
+}
+.navbarlist5{
+    margin-left: 55rem;
+    margin-top: -300px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.navbarlist, .navbarlist5, .navbarlist4, .navbarlist3, .navbarlist2, a{
+    text-decoration: none;
+    color:rgb(88, 168, 138);
+    font-size: 20px;
+    font-family: sans-serif;  
+}
+.learnmore{
+    font-size: 20px;
+    margin-left: 50px;
+    color:#8b8b8b;
+}
+.heading{
+    margin-left: 50px;
+    font-size: 70px;
+    font-weight: 900;
+    color:#5ba2ff;
+}
+.navbarlist p{
+    margin: 10px;
+}
+.navbarlist p:hover{
+    text-transform: uppercase;
+    color:rgb(0, 255, 170);
+}
+.page_2 img{
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+}
+.card{
+    background-color: white;
+    margin:20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+    box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+    -webkit-box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+    -moz-box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+
+}
+.card p{
+    margin-top:20px;
+    color: rgb(119, 56, 56);
+    font-size: 12px;
+}
+.brand {
+    background-color: white;
+    margin:20px;
+    margin-left: 20px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+
+    box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+    -webkit-box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+    -moz-box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+}
+.brand p{
+    margin-top:20px;
+    margin-top:60px;
+    text-align: center;
+    color: rgb(93, 109, 253);
+    font-size: 12px;
+}
+.cardjob{
+    background-color: white;
+    margin:5px;
+    height: 150px;
+    width: 280px;
+    border-radius: 10px;
+
+    box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+    -webkit-box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+    -moz-box-shadow: 21px 3px 52px -13px rgba(16,18,18,0.72);
+}
+.cardjob p{
+    color: rgb(71, 114, 255);
+    font-size: 15px;
+    margin-top: 60px;
+}
+.contactinfo{
+    margin-top:100px;
+    margin-left: 150px;
+    width: 100%;
+    
+}
+.job{
+    margin-top:150px;
+    margin-left: 5px;
+}
+.support{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 145px;
+    color:gray;
+}
+.click{
+    font-size: 13px;
+    margin-left: 145px;
+    color: gray;
+}
+#exampleInputtext{
+    border-radius: 20px;
+}
+#exampleInputEmail1{
+    border-radius: 20px;
+}
+
+/* Css Animation */
+.text-container{
+    margin-left: 50px;
+    font-size: 50px;
+}
+.text-container > span {
+    font-family: 'Baloo Thambi', cursive;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes glow {
+    0%, 100% {
+      color: #FFF;
+      text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+    }
+    
+    10%, 90% {
+      color: rgb(133, 172, 255);
+      text-shadow: none;
+    }
+  }
+  
+  .text-container > span:nth-child(2) {
+      animation-delay: 0.25s;
+  }
+  
+  .text-container > span:nth-child(3) {
+      animation-delay: 0.5s;
+  }
+  
+  .text-container > span:nth-child(4) {
+      animation-delay: 0.75s;
+  }
+  
+  .text-container > span:nth-child(5) {
+      animation-delay: 1s;
+  }
+  
+  .text-container > span:nth-child(6) {
+      animation-delay: 1.25s;
+  }
+  
+  .text-container > span:nth-child(7) {
+      animation-delay: 1.5s;
+  }
+  .text-container > span:nth-child(8) {
+    animation-delay: 1.75s;
+}
+.text-container > span:nth-child(9) {
+    animation-delay: 2s;
+}
+.text-container > span:nth-child(10) {
+    animation-delay: 2.25s;
+}
+
